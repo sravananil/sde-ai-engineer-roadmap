@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/sde-ai-engineer-roadmap/", // ADD THIS LINE (use your exact repo name)
   server: {
     host: "::",
     port: 8080,
